@@ -14,8 +14,10 @@
 
     <header class="header">
       <img src="./images/header-logo.svg" alt="Логотип заголовка в виде контура Российской Федерации" class="header__logo">
-      <a href="#" class="header__lang-link">Ru</a>
-      <a href="#" class="header__lang-link">En</a>
+      <nav class="header__lang-options">
+        <a href="#" class="header__lang-link" target="_blank">Ru</a>
+        <a href="#" class="header__lang-link" target="_blank">En</a>
+      </nav>
     </header>
 
     <main class="content">
@@ -67,7 +69,7 @@
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <p class="place__website-url-heading">URL</p>
-            <a href="http://park-kosa.ru" class="place__website-link">park-kosa.ru</a>
+            <a href="http://park-kosa.ru" class="place__website-link" target="_blank">park-kosa.ru</a>
           </div>
           <img src="./images/place-kosa.jpg" alt="Мелководье морского побережья в облачную погоду" class="place__image">
           <div class="place__description">
@@ -79,7 +81,7 @@
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <p class="place__website-url-heading">URL</p>
-            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__website-link">National Geographic</a>
+            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__website-link" target="_blank">National Geographic</a>
           </div>
           <img src="./images/place-kolsky.jpg" alt="Заснеженные сопки" class="place__image">
           <div class="place__description">
@@ -91,7 +93,7 @@
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <p class="place__website-url-heading">URL</p>
-            <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__website-link">YouTube</a>
+            <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__website-link" target="_blank">YouTube</a>
           </div>
           <img src="./images/place-altai.jpg" alt="Вид с террасы в зелень смешенного леса" class="place__image">
           <div class="place__description">
@@ -103,7 +105,7 @@
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <p class="place__website-url-heading">URL</p>
-            <a href="https://vk.com/baikalmile" class="place__website-link">https://vk.com/baikalmile</a>
+            <a href="https://vk.com/baikalmile" class="place__website-link" target="_blank">https://vk.com/baikalmile</a>
           </div>
           <img src="./images/place-winter-baikal.jpg" alt="Прозрачный лед озера" class="place__image">
           <div class="place__description">
@@ -115,26 +117,34 @@
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <p class="place__website-url-heading">URL</p>
-            <a href="http://vodlozero.ru/" class="place__website-link">http://vodlozero.ru/</a>
+            <a href="http://vodlozero.ru/" class="place__website-link" target="_blank">http://vodlozero.ru/</a>
           </div>
           <img src="./images/place-karelia.jpg" alt="Вид на реку в лесу сквозь ветви деревьев" class="place__image">
           <div class="place__description">
             <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
         </article>
-
-
-
-
-
       </section>
 
-
+      <section class="cover">
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover-link" target="_blank">
+          <h2 class="cover__title">До Байкала <q>на собаках</q></h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+        </a>
+      </section>
     </main>
 
     <footer class="footer">
-
-
+      <nav class="footer-menu">
+        <ul class="footer-menu__items">
+          <li class="footer-menu__item"><a href="https://yandex.ru/maps" class="footer-menu__link" target="_blank">Карты</a></li>
+          <li class="footer-menu__item"><a href="https://yandex.ru/pogoda" class="footer-menu__link" target="_blank">Погода</a></li>
+          <li class="footer-menu__item"><a href="https://rasp.yandex.ru" class="footer-menu__link" target="_blank">Расписание</a></li>
+          <li class="footer-menu__item"><a href="https://calendar.yandex.ru" class="footer-menu__link" target="_blank">Календарь</a></li>
+          <li class="footer-menu__item"><a href="https://travel.yandex.ru" class="footer-menu__link" target="_blank">Путешествия</a></li>
+        </ul>
+      </nav>
+      <p class="footer-copyright">&copy;2023. Alexander B</p>
     </footer>
 
   </div>
