@@ -1,0 +1,10 @@
+.header-footer_items-direction_footer {
+  flex-direction: row;
+  align-items: flex-end;
+}
+@media screen and (max-width: 600px) {
+  .header-footer_items-direction_footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  }

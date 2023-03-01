@@ -1,0 +1,9 @@
+.header-footer_place_footer {
+  padding-bottom: 24px;
+}
+
+@media screen and (max-width: 600px) {
+  .header-footer_place_footer {
+    padding-bottom: 24px;
+  }
+}

@@ -1,0 +1,10 @@
+.narrow-content-style {
+  padding: 0 100px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1100px)  {
+  .narrow-content-style {
+    padding: 0;
+  }
+}

@@ -1,0 +1,16 @@
+.regular-width {
+  margin: 0 auto;
+  width: calc(100% - 48px*2);
+}
+
+@media screen and (max-width: 850px) {
+  .regular-width {
+    width: calc(100% - 24px*2);
+  }
+ }
+
+@media screen and (max-width: 425px) {
+  .regular-width {
+    width: calc(100% - 16px*2);
+}
+}
