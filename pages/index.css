@@ -35,11 +35,11 @@
 
 
 
-/* @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/sections/__photo-grid/sections__photo-grid.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/galery/galery.css);
-@import url(../blocks/galery/__item-img/galery__item-img.css); */
+@import url(../blocks/galery/__item-img/galery__item-img.css);
 
 
 @import url(../blocks/places/places.css);
