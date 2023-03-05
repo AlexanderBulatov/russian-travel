@@ -1,13 +1,2 @@
 .intro {
 }
-@media screen and (max-width: 850px) {
-  .intro {
-    width: calc(100% - 24px*2);
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .intro {
-    width: calc(100% - 16px*2);
-  }
-}
