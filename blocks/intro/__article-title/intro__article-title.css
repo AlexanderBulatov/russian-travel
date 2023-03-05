@@ -1,6 +1,4 @@
 .intro__article-title {
-  font-family: 'Inter', Arial, sans-serif;
-  color: #fff;
   margin: 0 auto;
   max-width: 100%;
   font-weight: 900;
@@ -8,7 +6,6 @@
   line-height: 1.07;
   padding-bottom: 40px;
 }
-
 
 @media screen and (max-width: 767px) {
   .intro__article-title {
